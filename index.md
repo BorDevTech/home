@@ -7,7 +7,7 @@
   <li>
     <a href="{{doc.url}}">{{doc.title}}</a>
   </li>
-  {% end if %}
+  {% endif %}
   {% endfor %}
   </ul>
 </nav>
