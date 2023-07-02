@@ -2,7 +2,7 @@
 <h1>welcome to home page</h1>
 <nav>
   <ul>
-    {% for doc in site.docs %}
+    {% for doc in site._docs %}
   {% if doc.category == "navbar" %}
   <li>
     <a href="{{doc.url}}">{{doc.title}}</a>
