@@ -1,13 +1,10 @@
-
-<h1>welcome to home page</h1>
-<nav>
-  <ul>
-    {% for doc in site._docs %}
-  {% if doc.category == "navbar" %}
-  <li>
-    <a href="{{doc.url}}">{{doc.title}}</a>
-  </li>
-  {% endif %}
-  {% endfor %}
+<nav> 
+  <h1>Home</h1>
+  <ul> 
+    <li>About</li>
+    <li>About</li>
+    <li>About</li>
   </ul>
 </nav>
+<h1>welcome to home page</h1>
+
